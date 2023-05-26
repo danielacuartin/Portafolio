@@ -1,36 +1,24 @@
-# Personal Portfolio Website in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+### Portafolio Personal
 
-Built using:
+
+¡Bienvenido a mi portafolio personal! Este es el lugar donde comparto mis proyectos, habilidades y experiencias en el mundo de la tecnología. Soy Programadora frontend, especialista en marketing, ilustradora y diseñadora de UI/UX. Fusiono la creatividad y la funcionalidad para crear experiencias digitales cautivadoras. Soy responsable, autodidacta y muy creativa.
+### Acerca de mí
+Soy un apasionado de la tecnología y la resolución de problemas creativos. Mi objetivo es crear soluciones innovadoras y eficientes que impacten positivamente en la vida de las personas. A lo largo de mi trayectoria, he adquirido experiencia en el desarrollo de aplicaciones, la colaboración en equipos multidisciplinarios y la entrega de proyectos de alta calidad.
+### Contacto
+Si estás interesado en colaborar en proyectos emocionantes o simplemente deseas hablar de tecnología, ¡no dudes en contactarme! Puedes encontrarme en las siguientes plataformas:
+•	Correo electrónico: Danielacuartin1@gmail.com
+•	LinkedIn: @Daniela-cuartin-7748b4232
+•	Instagram: @Cuartindaniela
+¡Gracias por visitar mi portafolio! Espero que encuentres interesantes mis proyectos y que podamos conectar en el futuro.
+
+
+### This project was bootstrapped with Create React App.
+
+Este portafolio fue creado con:
 
 - Front-end library: React
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
