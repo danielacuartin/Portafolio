@@ -142,7 +142,7 @@ export const Logos = () => {
                       <Nav.Link eventKey="second">Marketing</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Programación</Nav.Link>
+                      <Nav.Link eventKey="third">Program.</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

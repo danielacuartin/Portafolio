@@ -89,6 +89,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background: #121212;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
@@ -243,7 +244,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 150px 0 100px 0;
+  padding: 150px 0 50px 0;
 
 }
 
@@ -293,6 +294,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
+  margin-top: 25px;
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
@@ -552,7 +554,7 @@ background: transparent;
   width: 92%;
 }
 .contact h2 {
-	font-size: 64px;
+	font-size: 3rem;
 	font-weight: 700;
   margin-bottom: 40px;
 }
