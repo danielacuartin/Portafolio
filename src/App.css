@@ -83,7 +83,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 18px 0;
+  padding: 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -376,7 +376,7 @@ background: transparent;
 
 /************ Projects Css ************/
 .project {
-  padding: 100px 0;
+  padding: 50px 0;
   position: relative;
   background-color: black;
   width: 100%;
@@ -571,16 +571,15 @@ background: transparent;
 
 /************ Footer Css ************/
 .footer {
-  padding: 50px 0 50px 0;
+  padding: 50px 10px 50px 10px;
   background: linear-gradient(to bottom right, #00102a, #01436d); ;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
-.footer img {
-  width: 50%;
-}
+
 .footer p {
   font-weight: 400;
   font-size: 14px;

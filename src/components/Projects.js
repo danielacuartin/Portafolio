@@ -85,7 +85,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    <p>Desde branding y diseño de logotipos hasta material promocional y diseño de interfaces, mi enfoque se centra en transmitir mensajes claros y atractivos a través de una estética cuidadosamente elaborada. Explora mi trabajo y descubre cómo el diseño puede transformar la forma en que percibimos y nos relacionamos con el mundo.</p>
+                    <p>Desde branding y diseño de logotipos hasta material promocional y diseño de interfaces, mi enfoque se centra en transmitir mensajes claros y atractivos a través de una estética cuidadosamente elaborada. </p>
                       <Row>
                         {
                           projects1.map((project, index) => {
@@ -100,7 +100,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <p> Soy una artista especializada en capturar la esencia de cada individuo y transformarla en ilustraciones únicas y memorables. Ya sea que busques un retrato personalizado, un héroe de fantasía o un avatar digital, estoy aquí para dar vida a tus ideas y brindarte un personaje que refleje tu identidad y personalidad. Explora mi trabajo y déjate sorprender por la combinación de creatividad y detalle en cada ilustración.</p>
+                    <p> Soy una artista especializada en capturar la esencia de cada individuo y transformarla en ilustraciones únicas y memorables. Ya sea que busques un retrato personalizado, un héroe de fantasía o un avatar digital, estoy aquí para dar vida a tus ideas y brindarte un personaje que refleje tu identidad y personalidad. </p>
                       <Row>
                         {
                           projects2.map((project, index) => {
