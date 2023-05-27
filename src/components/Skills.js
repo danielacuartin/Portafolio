@@ -35,7 +35,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Habilidades</h2>
-                        <p>Mi enfoque se centra en combinar la creatividad visual con la funcionalidad tecnológica para crear soluciones impactantes y atractivas. Con una pasión por la innovación y la atención al detalle, estoy comprometida a ofrecer resultados sobresalientes que cautiven a los usuarios y generen resultados exitosos para mis clientes.</p>
+                        <p>Mi enfoque se centra en combinar la creatividad visual con la funcionalidad tecnológica para crear soluciones impactantes y atractivas. </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
