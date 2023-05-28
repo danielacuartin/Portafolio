@@ -533,16 +533,9 @@ background: transparent;
 
 /* Móviles en horizontal o tablets en vertical */
 
-@media (max-width: 767px) {
-  #galeria {
-    columns: 2;
-  }
 
-  .banner p{font-size: 18px;}
 
-  .banner h1 {font-size: 42px;} 
 
-}
 
 
 /* Móviles en vertical */
@@ -595,3 +588,32 @@ background: transparent;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+
+
+
+  @media (max-width: 1000px) {
+    #galeria {
+      columns: 2;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #galeria {
+      columns: 1;
+    }
+  
+    .banner p{font-size: 16px;}
+  
+    .banner h1 {font-size: 38px;} 
+  
+    .logo {width: 200px;}
+    .contact .social-icon span {font-size: 18px;}
+    .contact h2{text-align: center;}}
+    .contact .social-icon a img {
+      margin: 5px;
+     width: 20px;
+     height: auto;
+    
+    }
