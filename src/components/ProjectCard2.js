@@ -4,6 +4,10 @@ import projImg3 from "../assets/img/ilustracion/3.png";
 import projImg4 from "../assets/img/ilustracion/4.png";
 import projImg5 from "../assets/img/ilustracion/5.jpg";
 import projImg6 from "../assets/img/ilustracion/6.PNG";
+import projImg7 from "../assets/img/ilustracion/7.jpeg";
+import projImg8 from "../assets/img/ilustracion/8.jfif";
+import projImg9 from "../assets/img/ilustracion/9.jfif";
+import projImg10 from "../assets/img/ilustracion/10.png";
 
 
 export const ProjectCard2 = ({ title, description, imgUrl }) => {
@@ -60,14 +64,45 @@ export const ProjectCard2 = ({ title, description, imgUrl }) => {
     
     </article> <article>
             <div className="proj-imgbx">
-    <img src={projImg2} />
+    <img src={projImg7} />
     <div className="proj-txtx">
-      <h4>Flexo Ghots Trick</h4>
+      <h4>Invitación de cumpleaños</h4>
+      <span>ilustración de vectores</span>
+    </div>
+    </div>
+    
+    </article>
+    <article>
+            <div className="proj-imgbx">
+    <img src={projImg8} />
+    <div className="proj-txtx">
+      <h4>Han solo/Super crooks</h4>
       <span>ilustración personalizada</span>
     </div>
     </div>
     
     </article>
+    <article>
+            <div className="proj-imgbx">
+    <img src={projImg9} />
+    <div className="proj-txtx">
+      <h4>La historia de una vida</h4>
+      <span>Obra propia</span>
+    </div>
+    </div>
+    
+    </article>
+    <article>
+            <div className="proj-imgbx">
+    <img src={projImg10} />
+    <div className="proj-txtx">
+      <h4>KirbyPanada</h4>
+      <span>Mascota de una empresa</span>
+    </div>
+    </div>
+    
+    </article>
+
 
   </section>
     

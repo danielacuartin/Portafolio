@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bienvenido a mi portafolio</span>
-                <h1>{`Hola, soy Daniela`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Graphic Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hola, soy Daniela`} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Graphic Designer", "Web Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Programadora frontend, especialista en marketing, ilustradora y diseñadora de UI/UX. Fusiono la creatividad y la funcionalidad para crear experiencias digitales cautivadoras. Soy responsable, autodidacta y muy creativa.</p>
                   {/* <button onClick={() => console.log('connect')}><a className="CV" href="./CV.pdf" download>Descargar CV </a><ArrowRightCircle size={25} /></button> */}
               </div>}
