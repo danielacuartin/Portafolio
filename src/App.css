@@ -97,7 +97,7 @@ nav.navbar.scrolled {
 
 }
 
-.logo {width: 250px;}
+.logo {width: 170px;}
 nav.navbar a.navbar-brand {
     width: 9%;
 }
@@ -244,7 +244,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 150px 15px 50px 15px;
+  padding: 170px 15px 50px 15px;
 
 }
 
@@ -608,7 +608,7 @@ background: transparent;
   
     .banner h1 {font-size: 38px;} 
   
-    .logo {width: 200px;}
+    .logo {width: 100px;}
     .contact .social-icon span {font-size: 18px;}
     .contact h2{text-align: center;}}
     .contact .social-icon a img {

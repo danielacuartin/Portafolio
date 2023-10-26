@@ -47,8 +47,8 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
             <div className="proj-imgbx">
     <img src={projImg6} />
     <div className="proj-txtx">
-      <h4>Publicidad para App</h4>
-      <span>Empresa deportiva</span>
+      <h4>Publicidad sobre fresas</h4>
+      <span>Tienda de jugos naturales</span>
     </div>
     </div>
     
@@ -85,8 +85,8 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
             <div className="proj-imgbx">
     <img src={projImg2} />
     <div className="proj-txtx">
-      <h4>Mockup logo el Emunah</h4>
-      <span>Distribuidora de productos de oficina y limpieza</span>
+      <h4>Manual de marca</h4>
+      <span>Logo personal</span>
     </div>
     </div>
     
@@ -95,8 +95,8 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
             <div className="proj-imgbx">
     <img src={projImg7} />
     <div className="proj-txtx">
-      <h4>Feed para distintas redes</h4>
-      <span>Empresa de Marketing digital</span>
+      <h4>Publicidad para jugo de Naranja</h4>
+      <span>Tienda de jugos</span>
     </div>
     </div>
     
@@ -105,8 +105,8 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
             <div className="proj-imgbx">
     <img src={projImg8} />
     <div className="proj-txtx">
-      <h4>Feed para distintas redes</h4>
-      <span>Distribuidora de productos de oficina y limpieza</span>
+      <h4>Manual de marca</h4>
+      <span>Revista de Cine</span>
     </div>
     </div>
     
@@ -125,8 +125,8 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
             <div className="proj-imgbx">
     <img src={projImg10} />
     <div className="proj-txtx">
-      <h4>Horario de clases universitario</h4>
-      <span>Tematica de Avatar</span>
+      <h4>Banner imprimible</h4>
+      <span>Tienda de jugos</span>
     </div>
     </div>
     
