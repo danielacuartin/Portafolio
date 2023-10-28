@@ -27,6 +27,8 @@ import projImg26 from "../assets/img/Diseño/26.png";
 import projImg27 from "../assets/img/Diseño/27.png";
 import projImg28 from "../assets/img/Diseño/28.png";
 import projImg29 from "../assets/img/Diseño/29.png";
+import projImg30 from "../assets/img/Diseño/30.png";
+import projImg31 from "../assets/img/Diseño/31.png";
 
 
 export const ProjectCard3 = ({ title, description, imgUrl }) => {
@@ -317,6 +319,26 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
     <div className="proj-txtx">
     <h4>Post de instagram</h4>
       <span>Aseguradora de salud</span>
+    </div>
+    </div>
+    
+    </article>
+    <article>
+            <div className="proj-imgbx">
+    <img src={projImg30} />
+    <div className="proj-txtx">
+    <h4>Post de instagram</h4>
+      <span>Tienda de tecnologia</span>
+    </div>
+    </div>
+    
+    </article>
+    <article>
+            <div className="proj-imgbx">
+    <img src={projImg31} />
+    <div className="proj-txtx">
+    <h4>Post de instagram</h4>
+      <span>Tienda de tecnologia</span>
     </div>
     </div>
     
