@@ -17,20 +17,14 @@ export const ProjectCard2 = ({ title, description, imgUrl }) => {
         <article>
             <div className="proj-imgbx">
     <img src={projImg1} />
-    <div className="proj-txtx">
-      <h4>Avatar de tierra</h4>
-      <span>ilustración personalizada</span>
-    </div>
+  
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg6} />
-    <div className="proj-txtx">
-      <h4>Atardecer en Italia</h4>
-      <span>ilustración personalizada</span>
-    </div>
+   
     </div>
     
     </article>
@@ -38,67 +32,46 @@ export const ProjectCard2 = ({ title, description, imgUrl }) => {
     <article>
             <div className="proj-imgbx">
     <img src={projImg5} />
-    <div className="proj-txtx">
-      <h4>31 minutos</h4>
-      <span>ilustración personalizada</span>
-    </div>
+ 
     </div>
     
     </article> <article>
             <div className="proj-imgbx">
     <img src={projImg4} />
-    <div className="proj-txtx">
-      <h4>Overwatch Zenyatta</h4>
-      <span>ilustración personalizada</span>
-    </div>
+   
     </div>
     
     </article> <article>
             <div className="proj-imgbx">
     <img src={projImg3} />
-    <div className="proj-txtx">
-      <h4>Link y Malon</h4>
-      <span>ilustración personalizada</span>
-    </div>
+ 
     </div>
     
     </article> <article>
             <div className="proj-imgbx">
     <img src={projImg7} />
-    <div className="proj-txtx">
-      <h4>Invitación de cumpleaños</h4>
-      <span>ilustración de vectores</span>
-    </div>
+   
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg8} />
-    <div className="proj-txtx">
-      <h4>Han solo/Super crooks</h4>
-      <span>ilustración personalizada</span>
-    </div>
+   
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg9} />
-    <div className="proj-txtx">
-      <h4>La historia de una vida</h4>
-      <span>Obra propia</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg10} />
-    <div className="proj-txtx">
-      <h4>KirbyPanada</h4>
-      <span>Mascota de una empresa</span>
-    </div>
+    
     </div>
     
     </article>

@@ -38,20 +38,14 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
         <article>
             <div className="proj-imgbx">
     <img src={projImg1} />
-    <div className="proj-txtx">
-      <h4>Feed para instagram</h4>
-      <span>Empresa de belleza</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg6} />
-    <div className="proj-txtx">
-      <h4>Publicidad sobre fresas</h4>
-      <span>Tienda de jugos naturales</span>
-    </div>
+    
     </div>
     
     </article>
@@ -59,287 +53,200 @@ export const ProjectCard3 = ({ title, description, imgUrl }) => {
     <article>
             <div className="proj-imgbx">
     <img src={projImg5} />
-    <div className="proj-txtx">
-      <h4>Feed de instagram y Facebook</h4>
-      <span>Aplicación NES+</span>
-    </div>
+    
     </div>
     
     </article> <article>
             <div className="proj-imgbx">
     <img src={projImg4} />
-    <div className="proj-txtx">
-      <h4>Publicidad para atraer a la comunidad</h4>
-      <span>Empresa NES+</span>
-    </div>
+    
     </div>
     
     </article> <article>
             <div className="proj-imgbx">
     <img src={projImg3} />
-    <div className="proj-txtx">
-      <h4>Post promocional</h4>
-      <span>Empresa NES+</span>
-    </div>
+    
     </div>
     
     </article> <article>
             <div className="proj-imgbx">
     <img src={projImg2} />
-    <div className="proj-txtx">
-      <h4>Manual de marca</h4>
-      <span>Logo personal</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg7} />
-    <div className="proj-txtx">
-      <h4>Publicidad para jugo de Naranja</h4>
-      <span>Tienda de jugos</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg8} />
-    <div className="proj-txtx">
-      <h4>Manual de marca</h4>
-      <span>Revista de Cine</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg9} />
-    <div className="proj-txtx">
-      <h4>Flyer promocional para impresión</h4>
-      <span>Consultorio dental</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg10} />
-    <div className="proj-txtx">
-      <h4>Banner imprimible</h4>
-      <span>Tienda de jugos</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg11} />
-    <div className="proj-txtx">
-      <h4>Mockup de Logo</h4>
-      <span>Empresa de ropa</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg12} />
-    <div className="proj-txtx">
-      <h4>Feed instagram</h4>
-      <span>Empresa de implantes capilares</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg13} />
-    <div className="proj-txtx">
-      <h4>Post de notificación</h4>
-      <span>Constructora</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg14} />
-    <div className="proj-txtx">
-      <h4>Post de instagram</h4>
-      <span>Aseguradora de salud</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg15} />
-    <div className="proj-txtx">
-      <h4>Post de facebook</h4>
-      <span>Publicidad para GYM</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg16} />
-    <div className="proj-txtx">
-    <h4>Post de notificación</h4>
-      <span>Constructora</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg17} />
-    <div className="proj-txtx">
-    <h4>Post de notificación</h4>
-      <span>Constructora</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg18} />
-    <div className="proj-txtx">
-    <h4>Post de cita</h4>
-      <span>Constructora</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg19} />
-    <div className="proj-txtx">
-    <h4>Post de cita</h4>
-      <span>Constructora</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg20} />
-    <div className="proj-txtx">
-    <h4>Post de facebook</h4>
-      <span>Publicidad para GYM</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg21} />
-    <div className="proj-txtx">
-      <h4>Triptico imprimible</h4>
-      <span>Constructora</span>
-    </div>
+   
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg22} />
-    <div className="proj-txtx">
-    <h4>Triptico imprimible</h4>
-      <span>Constructora</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg23} />
-    <div className="proj-txtx">
-    <h4>Post de instagram</h4>
-      <span>Aseguradora de salud</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg24} />
-    <div className="proj-txtx">
-    <h4>Post de instagram</h4>
-      <span>Aseguradora de salud</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg25} />
-    <div className="proj-txtx">
-    <h4>Post de instagram</h4>
-      <span>Aseguradora de salud</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg26} />
-    <div className="proj-txtx">
-      <h4>Flyer imprimible</h4>
-      <span>Constructora</span>
-    </div>
+   
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg27} />
-    <div className="proj-txtx">
-      <h4>Feed para instagram</h4>
-      <span>Estilista</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg28} />
-    <div className="proj-txtx">
-    <h4>Post de facebook</h4>
-      <span>Publicidad para GYM</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg29} />
-    <div className="proj-txtx">
-    <h4>Post de instagram</h4>
-      <span>Aseguradora de salud</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg30} />
-    <div className="proj-txtx">
-    <h4>Post de instagram</h4>
-      <span>Tienda de tecnologia</span>
-    </div>
+    
     </div>
     
     </article>
     <article>
             <div className="proj-imgbx">
     <img src={projImg31} />
-    <div className="proj-txtx">
-    <h4>Post de instagram</h4>
-      <span>Tienda de tecnologia</span>
-    </div>
+    
     </div>
     
     </article>

@@ -1,78 +1,28 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import Logo1 from "../assets/img/Logos/1.png";
-import Logo2 from "../assets/img/Logos/2.png";
-import Logo3 from "../assets/img/Logos/3.png";
-import Logo4 from "../assets/img/Logos/4.png";
-import Logo5 from "../assets/img/Logos/5.png";
-import Logo6 from "../assets/img/Logos/6.png";
-import Logo7 from "../assets/img/Logos/7.png";
-import Logo8 from "../assets/img/Logos/8.png";
-import Logo9 from "../assets/img/Logos/9.png";
-import Logo10 from "../assets/img/Logos/10.png";
-import Logo11 from "../assets/img/Logos/11.png";
-import Logo12 from "../assets/img/Logos/12.png";
-import Logo13 from "../assets/img/Logos/13.png";
-import Logo14 from "../assets/img/Logos/14.png";
-import Logo15 from "../assets/img/Logos/15.png";
-import Logo16 from "../assets/img/Logos/16.png";
-import Logo17 from "../assets/img/Logos/17.png";
-import Logo18 from "../assets/img/Logos/18.png";
+import { ProjectCard } from "./ProjectCardCer";
+import Logo10 from "../assets/img/Certificado/1.jpg";
+import Logo11 from "../assets/img/Certificado/2.jpg";
+import Logo12 from "../assets/img/Certificado/3.jpg";
+import Logo13 from "../assets/img/Certificado/4.jpg";
+import Logo14 from "../assets/img/Certificado/5.jpg";
+import Logo15 from "../assets/img/Certificado/6.jpg";
+import Logo16 from "../assets/img/Certificado/7.jpg";
+import Logo17 from "../assets/img/Certificado/8.jpg";
+import Logo18 from "../assets/img/Certificado/9.jpg";
+import Logo19 from "../assets/img/Certificado/10.jpg";
+import Logo20 from "../assets/img/Certificado/11.jpg";
+import Logo21 from "../assets/img/Certificado/12.jpg";
+import Logo22 from "../assets/img/Certificado/13.jpg";
+import Logo23 from "../assets/img/Certificado/14.jpg";
+import Logo24 from "../assets/img/Certificado/15.jpg";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Logos = () => {
+export const Certificados = () => {
 
-  const projects3 = [
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo1,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo2,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo3,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo4,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo5,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo6,
-    },
-  ];
-  const projects2 = [
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo7,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo8,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: Logo9,
-    }
-  ];
+ 
   const projects1 = [
     {
       title: "",
@@ -97,14 +47,13 @@ export const Logos = () => {
     {
       title: "",
       description: "",
-      imgUrl: Logo17,
+      imgUrl: Logo14,
     },
     {
       title: "",
       description: "",
-      imgUrl: Logo18,
-    },
-    {
+      imgUrl: Logo15,
+    }, {
       title: "",
       description: "",
       imgUrl: Logo16,
@@ -112,42 +61,117 @@ export const Logos = () => {
     {
       title: "",
       description: "",
-      imgUrl: Logo14,
+      imgUrl: Logo17,
+    },
+    
+    {
+      title: "",
+      description: "",
+      imgUrl: Logo18,
+    },
+    
+  ];
+  // const projects2 = [
+  //   {
+  //     title: "",
+  //     description: "",
+  //     imgUrl: Logo10,
+  //   },
+  //   {
+  //     title: "",
+  //     description: "",
+  //     imgUrl: Logo11,
+  //   },
+  //   {
+  //     title: "",
+  //     description: "",
+  //     imgUrl: Logo12,
+  //   },
+  //   {
+  //     title: "",
+  //     description: "",
+  //     imgUrl: Logo13,
+  //   },
+  //   {
+  //     title: "",
+  //     description: "",
+  //     imgUrl: Logo14,
+  //   },
+  //   {
+  //     title: "",
+  //     description: "",
+  //     imgUrl: Logo15,
+  //   }, {
+  //     title: "",
+  //     description: "",
+  //     imgUrl: Logo16,
+  //   },
+    
+  // ];
+  const projects3 = [
+    {
+      title: "",
+      description: "",
+      imgUrl: Logo19,
     },
     {
       title: "",
       description: "",
-      imgUrl: Logo15,
+      imgUrl: Logo20,
     },
+    {
+      title: "",
+      description: "",
+      imgUrl: Logo21,
+    },
+    {
+      title: "",
+      description: "",
+      imgUrl: Logo22,
+    },
+    {
+      title: "",
+      description: "",
+      imgUrl: Logo23,
+    },
+    {
+      title: "",
+      description: "",
+      imgUrl: Logo24,
+    },
+ 
+  
+    
+    
   ];
 
 
 
   return (
-    <section className="project" id="Logos">
+    <section className="project" id="Certificados">
       <Container>
         <Row>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Programas</h2>
+                <h2>Certificados</h2>
                <br/> 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav variant="pills" className="nav-pills nav-pills2 mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Diseño</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="second">Marketing</Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                     <Nav.Item>
                       <Nav.Link eventKey="third">Program.</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    <p> Utilizo herramientas como Adobe Photoshop, Illustrator e InDesign para crear diseños gráficos impresionantes, ilustraciones cautivadoras y material promocional impactante. Además, cuento con experiencia en software de edición de video como Adobe Premiere Pro y After Effects, permitiéndome dar vida a historias visuales envolventes y efectos especiales cautivadores. </p>
+                    <p> Con certificaciones destacadas en diseño, he perfeccionado mi capacidad para crear soluciones visuales impactantes y funcionales. </p>
                       <Row>
                         {
                           projects1.map((project, index) => {
@@ -161,7 +185,7 @@ export const Logos = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    {/* <Tab.Pane eventKey="second">
                       <p>Como profesional de marketing digital, utilizo una amplia gama de programas y plataformas para optimizar campañas publicitarias, analizar datos y crear contenido relevante. Manejo herramientas como Google Analytics, Google Ads y Meta, entre otros, para impulsar el crecimiento, aumentar la visibilidad en línea y conectar de manera efectiva con el público objetivo.</p>
                       <Row>
                         {
@@ -175,9 +199,9 @@ export const Logos = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                     <Tab.Pane eventKey="third">
-                      <p>Tengo experiencia en lenguajes de programación como HTML, CSS y JavaScript, así como en frameworks como React, puedo crear sitios web interactivos y modernos. Además, utilizo herramientas como Visual Studio Code, y GitHub para optimizar mi flujo de trabajo y colaboración.</p>
+                      <p>Respaldado por una sólida formación y certificaciones clave en el ámbito de la programación, he demostrado un compromiso firme con la excelencia técnica y la innovación. </p>
                       <Row>
                         {
                           projects3.map((project, index) => {

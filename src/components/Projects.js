@@ -28,33 +28,33 @@ export const Projects = () => {
   ];
   const projects3 = [
     {
-      title: "Inicio (Tienda de ropa CARA)",
-      description: "Vainilla",
+      title: "",
+      description: "",
       imgUrl: projImg1,
     },
     {
-      title: "Shop (Tienda de ropa CARA)",
-      description: "Vainilla",
+      title: "",
+      description: "",
       imgUrl: projImg2,
     },
     {
-      title: "Banners (Tienda de ropa CARA)",
-      description: "Vainilla",
+      title: "",
+      description: "",
       imgUrl: projImg3,
     },
     {
-      title: "Pokedex inicio",
-      description: "React",
+      title: "",
+      description: "",
       imgUrl: projImg4,
     },
     {
-      title: "To do list",
-      description: "Vainilla",
+      title: "",
+      description: "",
       imgUrl: projImg5,
     },
     {
-      title: "Pokedex resultados",
-      description: "React",
+      title: "",
+      description: "",
       imgUrl: projImg6,
     },
   ];

@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Graphic Designer", "UI/UX Designer" ];
+  const toRotate = [ "Web Developer", "Graphic Designer", "Community Manager"];
   const period = 2000;
 
   useEffect(() => {
@@ -58,7 +58,6 @@ export const Banner = () => {
                 <span className="tagline">Bienvenido a mi portafolio</span>
                 <h1>{`Hola, soy Daniela`} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Graphic Designer", "Web Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Como diseñadora con experiencia en marketing, una pasión por la ilustración y conocimientos en programación frontend, tengo la habilidad de fusionar la creatividad y la funcionalidad para crear experiencias digitales cautivadoras. </p>
-                  {/* <button onClick={() => console.log('connect')}><a className="CV" href="./CV.pdf" download>Descargar CV </a><ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>
