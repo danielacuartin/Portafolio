@@ -72,13 +72,13 @@ export const Projects = () => {
                 <h2>Proyectos</h2>
                 <br/> 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav variant="pills" className="nav-pills nav-pills2 mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Diseño</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="second">Ilustración</Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                     <Nav.Item>
                       <Nav.Link eventKey="third">Program.</Nav.Link>
                     </Nav.Item>
@@ -99,7 +99,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    {/* <Tab.Pane eventKey="second">
                     <p> Soy una artista especializada en capturar la esencia de cada individuo y transformarla en ilustraciones únicas y memorables. Ya sea que busques un retrato personalizado, un héroe de fantasía o un avatar digital, estoy aquí para dar vida a tus ideas y brindarte un personaje que refleje tu identidad y personalidad. </p>
                       <Row>
                         {
@@ -113,7 +113,7 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                     <Tab.Pane eventKey="third">
                       <p> Desde el diseño de la interfaz hasta la implementación del código, mi enfoque se centra en brindar soluciones intuitivas y optimizadas que impulsen el éxito en línea de mis clientes. Explora mi trabajo y descubre cómo puedo llevar tu presencia en la web al siguiente nivel.</p>
                       <Row>
